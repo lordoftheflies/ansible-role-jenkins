@@ -10,8 +10,10 @@ repositories:
 
 # Ansible Role: Jenkins
 
-[![Build Status](https://travis-ci.org/lordoftheflies/ansible-role-jenkins.svg?branch=master)](https://travis-ci.org/lordoftheflies/ansible-role-jenkins)
-[![Travis CI](http://img.shields.io/travis/lordoftheflies/ansible-role-jenkins/default.svg?style=flat)](http://travis-ci.org/lordoftheflies/ansible-role-jenkins/default)
+[![Build Status](https://travis-ci.org/lordoftheflies/jenkins.svg?branch=master)](https://travis-ci.org/lordoftheflies/jenkins)
+[![Travis CI](http://img.shields.io/travis/lordoftheflies/jenkins/default.svg?style=flat)](http://travis-ci.org/lordoftheflies/jenkins/default)
+
+### Supported Platforms
 
 [![Platform](http://img.shields.io/badge/platforms-debian%20/%20ubuntu-yellowgreen.svg?style=flat)](#)
 [![Platform](http://img.shields.io/badge/platforms-debian%20/%20debian-yellowgreen.svg?style=flat)](#)
