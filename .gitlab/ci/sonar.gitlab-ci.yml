@@ -1,0 +1,11 @@
+
+
+# Static Code Analysis with sonar scanner.
+.sonar_analysis:
+  allow_failure: true
+  before_script:
+    - wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.2.0.1873-linux.zip
+    - unzip sonar-scanner-cli-4.2.0.1873-linux
+    - export PATH=${PATH}:./sonar-scanner-4.2.0.1873-linux/bin
+  script:
+    - sonar-scanner -Dproject.settings=sonar-project.properties

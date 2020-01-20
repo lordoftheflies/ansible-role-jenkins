@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - ansible-role-jenkins_deployment_users_home: /root
+    - ansible-role-jenkins_testing_provider: lxd
+
+  roles:
+    - ansible-role-jenkins

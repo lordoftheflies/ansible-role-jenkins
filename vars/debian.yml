@@ -1,0 +1,5 @@
+---
+# roles/ansible-role-jenkins/vars/debian.yml
+
+# Debian specific vars
+ansible-role-jenkins_package_extension: 'deb'
