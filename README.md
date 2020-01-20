@@ -72,18 +72,18 @@ vagrant up xenial
 pass, fail, untested
 
 | Platform | Family | Distribution | Results  |
-| :--- | :--- | :--- | :--- |
-| Debian | Ubuntu | precise | [ ] |
-| Debian | Ubuntu | trusty | [ ] |
-| Debian | Ubuntu | xenial | [x] |
-| Debian | Ubuntu | bionic | [ ] |
-| Debian | Ubuntu | disco | [ ] |
-| Debian | Ubuntu | eon | [x] |
-| RHEL | CentOS | 6 | [ ] |
-| RHEL | CentOS | 7 | [ ] |
-| RHEL | Fedora | | [ ] |
-| Arch | Archlinux |  | [ ] |
-| Suse | OpenSUSE |  | [ ] |
+| :---: | :---: | :---: | :---: |
+| Debian | Ubuntu | precise | untested |
+| Debian | Ubuntu | trusty | untested |
+| Debian | Ubuntu | xenial | pass |
+| Debian | Ubuntu | bionic | pass |
+| Debian | Ubuntu | disco | pass |
+| Debian | Ubuntu | eon | pass |
+| RHEL | CentOS | 6 | untested |
+| RHEL | CentOS | 7 | untested |
+| RHEL | Fedora | | untested |
+| Arch | Archlinux |  | fail |
+| Suse | OpenSUSE |  | fail |
 
 ## Authors and License
 
