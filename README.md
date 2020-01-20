@@ -1,16 +1,24 @@
-# Ansible Role: Jenkins
+---
+comments: true
+feedback: true
+description: 'Learn how to use and configure the Jenkins role.'
+repositories:
+  - domain=Ansible Role Jenkins, repository=https://github.com/lordoftheflies/jenkins
+  - domain=Ansible Role Jenkins, repository=https://gitlab.cherubits.hu/oss/ansible-galaxy-roles/ansible-role-jenkins
+  - domain=Ansible Role Jenkins, repository=https://gitlab.com/lordoftheflies/ansible-role-jenkins
+---
 
-## Status
+# Ansible Role: Jenkins
 
 [![Build Status](https://travis-ci.org/lordoftheflies/ansible-role-jenkins.svg?branch=master)](https://travis-ci.org/lordoftheflies/ansible-role-jenkins)
 [![Travis CI](http://img.shields.io/travis/lordoftheflies/ansible-role-jenkins/default.svg?style=flat)](http://travis-ci.org/lordoftheflies/ansible-role-jenkins/default)
 
-[![Platform](http://img.shields.io/badge/platforms-debian%20/%20ubuntu-lightgrey.svg?style=flat)](#)
-[![Platform](http://img.shields.io/badge/platforms-debian%20/%20debian-lightgrey.svg?style=flat)](#)
-[![Platform](http://img.shields.io/badge/platforms-rhel%20/%20centos-lightgrey.svg?style=flat)](#)
-[![Platform](http://img.shields.io/badge/platforms-rhel%20/%20fedora-lightgrey.svg?style=flat)](#)
-[![Platform](http://img.shields.io/badge/platforms-archlinux%20/%20archlinux-lightgrey.svg?style=flat)](#)
-[![Platform](http://img.shields.io/badge/platforms-suse%20/%20opensuse-lightgrey.svg?style=flat)](#)
+[![Platform](http://img.shields.io/badge/platforms-debian%20/%20ubuntu-yellowgreen.svg?style=flat)](#)
+[![Platform](http://img.shields.io/badge/platforms-debian%20/%20debian-yellowgreen.svg?style=flat)](#)
+[![Platform](http://img.shields.io/badge/platforms-rhel%20/%20centos-yellowgreen.svg?style=flat)](#)
+[![Platform](http://img.shields.io/badge/platforms-rhel%20/%20fedora-yellowgreen.svg?style=flat)](#)
+[![Platform](http://img.shields.io/badge/platforms-archlinux%20/%20archlinux-yellowgreen.svg?style=flat)](#)
+[![Platform](http://img.shields.io/badge/platforms-suse%20/%20opensuse-yellowgreen.svg?style=flat)](#)
 
 ## Description
 
@@ -45,25 +53,53 @@
 
 ## Variables
 
-### defaults/main.yml
+<p>
+
+<details>
+
+<summary>Jenkins Version</summary>
+
+#### Jenkins version
+
+Version of Jenkins, which will be installed by the role.
+
+</details>
+
+</p>
+
+<p>
+
+<details>
+
+<summary>Working Directory</summary>
+
+#### Working Directory
+
+Working directory for Jenkins installation.
+
+</details>
+
+</p>
+
+### Variable Defaults
 
 * [defaults/main.yml](defaults/main.yml) contains all of the required variables.
 
-### project_name/site.yml example
+### Site Example
 
-* [example.yml](files/example.yml) may contain an example entry.
+* [files/example.yml](files/example.yml) may contain an example entry.
 
 ## Testing
 
 To test with all VM's defined in Vagrantfile run the following:
 
-```shell
+```bash
 cd roles/ansible-role-jenkins
 vagrant up
 ```
 
 To run on a specific VM's
-```shell
+```bash
 vagrant up xenial
 ```
 
@@ -90,6 +126,4 @@ pass, fail, untested
 - [László Hegedűs](https://portal.cherubits.hu/) | [e-mail](mailto:laszlo.hegedus@cherubits.hu)
 
 License: [Apache-2.0](LICENSE)
-
-
 * ansible-role-jenkins generated using [galaxy-role-skeleton](https://github.com/cjsteel/galaxy-role-skeleton)
