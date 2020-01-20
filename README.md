@@ -35,9 +35,11 @@ repositories:
 * [Ansible Documentation](https://docs.ansible.com/)
 * [Jenkins User Manual](https://jenkins.io/doc/)
 
-## Requirements
+## Dependencies
 
-* lordoftheflies.java
+* [lordoftheflies.java](https://galaxy.ansible.com/lordoftheflies/java)
+
+## Requirements 
 
 ### Production
 
