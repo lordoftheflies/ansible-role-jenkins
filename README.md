@@ -5,7 +5,7 @@ description: 'Learn how to use and configure the Jenkins role.'
 repositories:
   - domain=Ansible Role Jenkins, repository=https://github.com/lordoftheflies/jenkins
   - domain=Ansible Role Jenkins, repository=https://gitlab.cherubits.hu/oss/ansible-galaxy-roles/ansible-role-jenkins
-  - domain=Ansible Role Jenkins, repository=https://gitlab.com/lordoftheflies/ansible-role-jenkins
+  - domain=Ansible Role Jenkins, repository=https://gitlab.com/lordoftheflies/ansible-role-jenkins  
 ---
 
 # Ansible Role: Jenkins
