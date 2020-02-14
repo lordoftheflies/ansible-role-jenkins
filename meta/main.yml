@@ -1,19 +1,14 @@
 ---
-# roles/ansible-role-jenkins/meta/main.yml
+# ansible-role-jenkins/meta/main.yml
 
 dependencies:
-
-#  - role: cjsteel.resources
-#    resources_on_local : '{{ ansible-role-jenkins_resources_on_local }}'
-#    resources_on_remote: '{{ ansible-role-jenkins_resources_on_remote }}'
-
-#  - role: acemenu
+  - role: lordoftheflies.ansible_role_java
 
 galaxy_info:
-  author: 'Christopher Steel'
-  description: 'ansible-role-jenkins is used to...'
-  company: 'McGill Centre for Integrative Neuroscience'
-  license: MIT
+  author: 'László Hegedűs'
+  description: 'Ansible Galaxy role for manage Jenkins installation.'
+  company: 'Cherubits'
+  license: Apache-2.0
   min_ansible_version: '1.7.1'
 
   platforms:
@@ -34,10 +29,14 @@ galaxy_info:
         - squeeze
         - stretch
         - wheezy
+    - name: Archlinux
+    - name: OpenSUSE
 
   galaxy_tags:
-    - mcin
     - ansible-role-jenkins
     - centos
     - debian
     - ubuntu
+    - fedora
+    - opensuse
+    - archlinux

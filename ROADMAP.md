@@ -1,1 +1,9 @@
-# roles/ansible-role-jenkins/ROADMAP.md
+# Ansible Role: Jenkins
+
+* Support for `Windows` platform
+* Support for `Mac` platform
+* Include initial configuration
+* GitLab integration
+* GitHub integration
+* BitBucket integration
+* Pipeline templates
