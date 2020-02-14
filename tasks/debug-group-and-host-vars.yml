@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-jenkins/tasks/debug-group-and-host-vars.yml
+# roles/jenkins_role/tasks/debug-group-and-host-vars.yml
 
 # Debug group_vars and host_vars values
 

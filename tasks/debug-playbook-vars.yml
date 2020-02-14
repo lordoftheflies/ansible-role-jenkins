@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-jenkins/tasks/debug-playbook-vars.yml
+# roles/jenkins_role/tasks/debug-playbook-vars.yml
 
 # Debug other values or specific values you want printed last
 

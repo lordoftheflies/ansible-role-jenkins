@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-jenkins/defaults/main.yml
+# roles/jenkins_role/defaults/main.yml
 
 ansible-role-jenkins_debug: false
 

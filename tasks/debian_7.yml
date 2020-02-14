@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-jenkins/tasks/debian_7.yml
+# roles/jenkins_role/tasks/debian_7.yml
 
 - debug:
     msg:

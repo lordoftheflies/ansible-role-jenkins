@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-jenkins/tasks/centos_5.yml
+# roles/jenkins_role/tasks/centos_5.yml
 
 - debug:
     msg:

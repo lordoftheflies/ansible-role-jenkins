@@ -1,4 +1,4 @@
 ---
-# roles/ansible-role-jenkins/vars/debian.yml
+# roles/jenkins_role/vars/debian.yml
 
 ansible-role-jenkins_package_extension: 'rpm'

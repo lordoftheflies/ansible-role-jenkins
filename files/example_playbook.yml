@@ -1,7 +1,7 @@
 ---
-# file: project/ansible-role-jenkins.yml
+# file: project/jenkins_role.yml
 
-- hosts: ansible-role-jenkins
+- hosts: jenkins_role
   become: false
   gather_facts: true
   pre_tasks:
@@ -9,9 +9,9 @@
     - set_fact: fact_role_name="{{ lookup('env','ANSIBLE_ROLE_NAME') }}"
     - debug: var=fact_role_name
 
-    - set_fact: fact_role_path="{{ lookup('pipe','pwd') }}/roles/ansible-role-jenkins"
+    - set_fact: fact_role_path="{{ lookup('pipe','pwd') }}/roles/jenkins_role"
     - debug: var=fact_role_path
 
   roles:
 
-    - ansible-role-jenkins
+    - jenkins_role

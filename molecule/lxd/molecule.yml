@@ -6,10 +6,10 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: ansible-role-jenkins-default-xenial
+  - name: jenkins_role-default-xenial
     source:
       alias: ubuntu/xenial/amd64
-  - name: ansible-role-jenkins-default-bionic
+  - name: jenkins_role-default-bionic
     source:
       type: image
       alias: ubuntu/bionic/amd64

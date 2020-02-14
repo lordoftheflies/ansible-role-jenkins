@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-jenkins/tasks/ubuntu_12.04.yml
+# roles/jenkins_role/tasks/ubuntu_12.04.yml
 
 - debug:
     msg:

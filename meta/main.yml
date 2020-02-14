@@ -1,5 +1,5 @@
 ---
-# ansible-role-jenkins/meta/main.yml
+# jenkins_role/meta/main.yml
 
 dependencies:
   - role: lordoftheflies.ansible_role_java
@@ -33,7 +33,7 @@ galaxy_info:
     - name: OpenSUSE
 
   galaxy_tags:
-    - ansible-role-jenkins
+    - jenkins_role
     - centos
     - debian
     - ubuntu

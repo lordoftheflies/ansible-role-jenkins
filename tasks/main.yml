@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-jenkins/tasks/main.yml
+# roles/jenkins_role/tasks/main.yml
 
 # START - boilerplate tasks
 
@@ -24,7 +24,7 @@
         - "{{ fact_role_path }}/defaults/{{ ansible_distribution | lower }}.yml"
       skip: true
 
-- name: "DEBUG - Debug ansible-role-jenkins variable values"
+- name: "DEBUG - Debug jenkins_role variable values"
   include: "{{ item }}"
   with_first_found:
     - files:

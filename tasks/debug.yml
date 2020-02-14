@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-jenkins/tasks/debug.yml
+# roles/jenkins_role/tasks/debug.yml
 
 # Include /tasks/debug-group-and-host-vars.yml
 

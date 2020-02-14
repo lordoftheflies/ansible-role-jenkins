@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-jenkins/tasks/redhat.yml
+# roles/jenkins_role/tasks/redhat.yml
 
 
 - debug:

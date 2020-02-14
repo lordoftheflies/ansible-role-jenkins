@@ -1,6 +1,6 @@
---- # ansible-role-jenkins/tests/travis_test.yml
+--- # jenkins_role/tests/travis_test.yml
 
 - hosts: localhost
   become: true
   roles:
-    - ansible-role-jenkins
+    - jenkins_role
